@@ -50,9 +50,8 @@ def average(array):
 
 def column_grades(array):
     array_t = array.T
-    array_i = np.shape(array_t)[0]
-    print(array_i)
-    print(array_t)
+    array_iterator = np.shape(array_t)[0]
+    array_iterator
     max_value = []
     for i in array_t:
         max_value.append(max(i))
