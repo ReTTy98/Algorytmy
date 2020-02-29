@@ -26,15 +26,38 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lista1/highest.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lista1/baczek.py" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
-  <component name="RunManager" selected="Python.highest">
+  <component name="RunManager" selected="Python.zad1">
+    <configuration name="baczek" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="Algorytmy" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\polek\AppData\Local\Programs\Python\Python37\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lista1" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lista1/baczek.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="highest" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Algorytmy" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -105,6 +128,7 @@
       <item itemvalue="Python.zad1" />
       <item itemvalue="Python.test" />
       <item itemvalue="Python.highest" />
+      <item itemvalue="Python.baczek" />
     </list>
   </component>
   <component name="ServiceViewManager">
@@ -130,6 +154,13 @@
       <option name="presentableId" value="Default" />
       <updated>1582969894835</updated>
       <workItem from="1582969896440" duration="16307000" />
+      <workItem from="1582994381122" duration="8065000" />
+      <workItem from="1583002473533" duration="81000" />
+      <workItem from="1583002565755" duration="17000" />
+      <workItem from="1583002592032" duration="15000" />
+      <workItem from="1583002618630" duration="207000" />
+      <workItem from="1583002837491" duration="177000" />
+      <workItem from="1583003024381" duration="44000" />
     </task>
     <servers />
   </component>
@@ -137,61 +168,63 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="414" y="176" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582979857150">
+    <state x="552" y="179" key="#Notifications" timestamp="1583002961473">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="414" y="176" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582979857150" />
-    <state x="740" y="276" key="FileChooserDialogImpl" timestamp="1582979856302">
+    <state x="552" y="179" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1583002961473" />
+    <state x="414" y="176" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582994409610">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="276" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1582979856302" />
-    <state width="1876" height="326" key="GridCell.Tab.0.bottom" timestamp="1582987327437">
+    <state x="414" y="176" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582994409610" />
+    <state x="740" y="276" key="FileChooserDialogImpl" timestamp="1582994408615">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="326" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1582987327437" />
-    <state width="1876" height="326" key="GridCell.Tab.0.center" timestamp="1582987327436">
+    <state x="740" y="276" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1582994408615" />
+    <state width="778" height="575" key="GridCell.Tab.0.bottom" timestamp="1583002456593">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="326" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1582987327436" />
-    <state width="1876" height="326" key="GridCell.Tab.0.left" timestamp="1582987327436">
+    <state width="778" height="575" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583002456593" />
+    <state width="778" height="575" key="GridCell.Tab.0.center" timestamp="1583002456593">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="326" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1582987327436" />
-    <state width="1876" height="326" key="GridCell.Tab.0.right" timestamp="1582987327437">
+    <state width="778" height="575" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583002456593" />
+    <state width="778" height="575" key="GridCell.Tab.0.left" timestamp="1583002456593">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="326" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1582987327437" />
-    <state width="1876" height="326" key="GridCell.Tab.1.bottom" timestamp="1582987327437">
+    <state width="778" height="575" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583002456593" />
+    <state width="778" height="575" key="GridCell.Tab.0.right" timestamp="1583002456593">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="326" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1582987327437" />
-    <state width="1876" height="326" key="GridCell.Tab.1.center" timestamp="1582987327437">
+    <state width="778" height="575" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583002456593" />
+    <state width="1877" height="326" key="GridCell.Tab.1.bottom" timestamp="1583002456590">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="326" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1582987327437" />
-    <state width="1876" height="326" key="GridCell.Tab.1.left" timestamp="1582987327437">
+    <state width="1877" height="326" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583002456590" />
+    <state width="1877" height="326" key="GridCell.Tab.1.center" timestamp="1583002456590">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="326" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1582987327437" />
-    <state width="1876" height="326" key="GridCell.Tab.1.right" timestamp="1582987327437">
+    <state width="1877" height="326" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583002456590" />
+    <state width="1877" height="326" key="GridCell.Tab.1.left" timestamp="1583002456590">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="326" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1582987327437" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/lista1/test.py</url>
-          <line>4</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <state width="1877" height="326" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583002456590" />
+    <state width="1877" height="326" key="GridCell.Tab.1.right" timestamp="1583002456590">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="326" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583002456590" />
+    <state x="756" y="116" key="SettingsEditor" timestamp="1583003093365">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="756" y="116" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1583003093365" />
+    <state x="636" y="345" key="com.intellij.ide.util.TipDialog" timestamp="1583003081489">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="636" y="345" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583003081489" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Algorytmy$test.coverage" NAME="test Coverage Results" MODIFIED="1582980450165" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lista1" />
-    <SUITE FILE_PATH="coverage/Algorytmy$zad1.coverage" NAME="zad1 Coverage Results" MODIFIED="1582973464251" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lista1" />
-    <SUITE FILE_PATH="coverage/Algorytmy$highest.coverage" NAME="highest Coverage Results" MODIFIED="1582987004492" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lista1" />
+    <SUITE FILE_PATH="coverage/Algorytmy$baczek.coverage" NAME="baczek Coverage Results" MODIFIED="1582994850593" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lista1" />
+    <SUITE FILE_PATH="coverage/Algorytmy$test.coverage" NAME="test Coverage Results" MODIFIED="1582998172694" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lista1" />
+    <SUITE FILE_PATH="coverage/Algorytmy$zad1.coverage" NAME="zad1 Coverage Results" MODIFIED="1583002201848" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lista1" />
+    <SUITE FILE_PATH="coverage/Algorytmy$highest.coverage" NAME="highest Coverage Results" MODIFIED="1582996925495" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lista1" />
   </component>
 </project>

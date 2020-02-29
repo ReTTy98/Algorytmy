@@ -1,69 +1,62 @@
-from random import choices, randint
+from random import randint
 import numpy as np
 from statistics import mean
 
 
-def create_array(students, subjects):
-    grades = np.linspace(2.0, 5.5, 8)
-    array = []
-    while students > 0:
-        array.append(choices(grades, k=subjects))
-        students -= 1
-    array = np.array(array)
-    return array
+def create_array():  # TODO WYKONANE
+    num_of_students = randint(4, 8)
+    num_of_subjects = randint(4, 8)
+    possible_grades = np.linspace(2.0, 5.5, 8)
+    grades_students_array = np.random.choice(
+        possible_grades, (num_of_students, num_of_subjects)
+    )
+    return grades_students_array
 
 
-def failed(array, n):
-    failed_students = 0
-    for row in array:
-        failed_subjects = 0
-        for grade in row:
-            if grade < 3.0:
-                failed_subjects += 1
-        if failed_subjects >= n:
-            failed_students += 1
-    return failed_students
+def failed(array):  # TODO WYKONANE
+    n = randint(1, 3)
+    print(f'1.Studenci z n:{n} nie zdanych przedmiotw:')
+    array_failed = np.where(array < 3.0, 1, 0)
+    array_failed = np.sum(array_failed, axis=1)
+    print(f"{np.argwhere(array_failed >= n).flatten()}\n")
 
 
-def average(array):
-    grades = []
-    for row in array:
-        grades.append(mean(row))
-    print(grades)
-    max_average = max(grades)
-    min_average = min(grades)
-    grades = np.array(grades)
-    max_index = np.argwhere(grades == max_average)
-    min_index = np.argwhere(grades == min_average)
-    max_list = []
-    min_list = []
-    for i in max_index:
-        max_list.append(array[i])
-    for i in min_index:
-        min_list.append(array[i])
-    max_list = np.array(max_list)
-    min_list = np.array(min_list)
-    print(max_list)
-    print(min_list)
-    return max_list , min_list
+
+def average(array):  # TODO Optymalizacja
+    students_average = np.around(np.average(array, axis=1), 2)
+    print(f'2.Średnie wszystkich studentow:\n {students_average}\n')
+    fake_student = np.argwhere(students_average >= 4.0).flatten()
+    print(f'Lista studentow ze srednimi nie nizszymi niz 4.0:\n{fake_student}\n')
+
+    max_average = np.argwhere(
+        students_average == np.amax(students_average)).flatten()
+    min_average = np.argwhere(
+        students_average == np.amin(students_average)).flatten()
+
+    print(f"""Indexy studentow o najmniejszej i najwiekszej sredniej:
+max: {max_average}
+min: {min_average}\n""")
+    print(f"""Oceny uczniow z max i min srednia:
+max:
+{array[max_average, :]}
+min:
+{array[min_average, :]}""")
 
 
-def column_grades(array):
-    array_t = array.T
-    array_iterator = np.shape(array_t)[0]
-    array_iterator
-    max_value = []
-    for i in array_t:
-        max_value.append(max(i))
-    print(max_value)
-    pass
+def get_highest_grades(array):
+    students = np.zeros(np.shape(array)[0])
+    for subject_grades in array.T:
+        best_students = np.argwhere(
+            subject_grades == np.amax(subject_grades)
+        ).flatten()
+        np.add.at(students, best_students, 1)
+    final_best_students = np.argwhere(students == np.amax(students)).flatten()
+    return final_best_students
 
 
 if __name__ == "__main__":
-    np.set_printoptions(precision=2)
-    data = create_array(randint(3, 5), randint(3, 5))
-    print(data)
-    print(failed(data, randint(1, 3)))
-    average_data = average(data)
-    print("============================")
-   # column_grades(data)
+    data = create_array()
+    print(f"""Wygenerowana macierz:
+{data}\n""")
+    failed(data)
+    average(data)

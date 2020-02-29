@@ -2,28 +2,15 @@ import numpy as np
 from random import randint, choices
 
 
-class HighestGrade:
-    def __init__(self, data_array):
-        self.data_array = data_array
-        self.array = np.copy(data_array)
-
-    def array_print(self):
-        print(self.array)
-
-    def best_grade_of_subject(self):
-        array = self.array.T
-        array_iterator = np.shape(array)[0]
-        array_iterator = np.arange(array_iterator)
-        best_grade_index = []
-
-        for i in array_iterator:
-            max_grade = max(array[i])
-            best_grade_index.append(np.nonzero(array[i] == max_grade))
-
-        best_grade_index = np.array(best_grade_index).flatten()
-        students = []
-        return best_grade_index
-
+def get_highest_grades(array):
+    students = np.zeros(np.shape(array)[0])
+    for subject_grades in array.T:
+        best_students = np.argwhere(
+            subject_grades == np.amax(subject_grades)
+        ).flatten()
+        np.add.at(students, best_students, 1)
+    final_best_students = np.argwhere(students == np.amax(students)).flatten()
+    return  final_best_students
 
 def create_array(students, subjects):
     grades = np.linspace(2.0, 5.5, 8)
@@ -36,6 +23,7 @@ def create_array(students, subjects):
 
 
 if __name__ == "__main__":
-    data = HighestGrade(create_array(randint(4, 7), randint(4, 7)))
-    data.array_print()
-    print(data.best_grade_of_subject())
+    data = create_array(randint(4, 5), randint(4, 5))
+    print(data)
+    print()
+    print(get_highest_grades(data))
