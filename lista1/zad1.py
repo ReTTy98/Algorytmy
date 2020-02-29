@@ -1,9 +1,9 @@
 from random import randint
 import numpy as np
-from statistics import mean
 
 
-def create_array():  # TODO WYKONANE
+
+def create_array():
     num_of_students = randint(4, 8)
     num_of_subjects = randint(4, 8)
     possible_grades = np.linspace(2.0, 5.5, 8)
@@ -13,7 +13,7 @@ def create_array():  # TODO WYKONANE
     return grades_students_array
 
 
-def failed(array):  # TODO WYKONANE
+def failed(array):
     n = randint(1, 3)
     print(f'1.Studenci z n:{n} nie zdanych przedmiotw:')
     array_failed = np.where(array < 3.0, 1, 0)
@@ -22,7 +22,7 @@ def failed(array):  # TODO WYKONANE
 
 
 
-def average(array):  # TODO Optymalizacja
+def average(array):
     students_average = np.around(np.average(array, axis=1), 2)
     print(f'2.Średnie wszystkich studentow:\n {students_average}\n')
     fake_student = np.argwhere(students_average >= 4.0).flatten()
