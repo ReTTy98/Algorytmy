@@ -6,6 +6,7 @@ def create_array():
     num_of_students = randint(4, 8)
     num_of_subjects = randint(4, 8)
     possible_grades = np.linspace(2.0, 5.5, 8)
+    possible_grades = np.delete(possible_grades,1)
     grades_students_array = np.random.choice(
         possible_grades, (num_of_students, num_of_subjects)
     )

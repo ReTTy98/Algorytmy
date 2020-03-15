@@ -3,26 +3,27 @@ from random import randint
 
 
 def s_d():
+
     x = np.random.choice(
         np.arange(0, 100), (randint(4, 6),randint(4, 6))
     )
     y = np.random.choice(
         np.arange(0, 100), (np.shape(x)[0], np.shape(x)[1])
     )
-    symmetric_difference = np.absolute(x - y)
+    symmetric_difference = np.sum(np.absolute(x - y))
 
-    print(f"""Macierz x:
+    print(f'''Pierwsza macierz:
 {x}
 
-Macierz y:
+Druga Macierz:
 {y}
 
-x-y:
-{x-y}
-
-Odległość symetryczna:
-{symmetric_difference}
-    """)
+Różnica symetryczna: {symmetric_difference}''')
 
 
-s_d()
+
+
+if __name__ == '__main__':
+    s_d()
+
+

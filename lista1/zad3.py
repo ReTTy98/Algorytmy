@@ -1,0 +1,1 @@
+print('Troche pusto tutaj :/')
