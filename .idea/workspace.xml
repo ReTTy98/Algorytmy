@@ -26,7 +26,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lista1/zad4.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lista2/zad.py" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -35,8 +35,52 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.zad3">
-    <configuration name="zad1" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.zad">
+    <configuration name="sorting_time" type="PythonConfigurationType" factoryName="Python" folderName="Lista2">
+      <module name="Algorytmy" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\polek\AppData\Local\Programs\Python\Python37\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lista2" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lista2/sorting_time.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="zad" type="PythonConfigurationType" factoryName="Python" folderName="Lista2" nameIsGenerated="true">
+      <module name="Algorytmy" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\polek\AppData\Local\Programs\Python\Python37\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lista2" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lista2/zad.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="zad1" type="PythonConfigurationType" factoryName="Python" folderName="Lista1" nameIsGenerated="true">
       <module name="Algorytmy" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -58,7 +102,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="zad2" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+    <configuration name="zad2" type="PythonConfigurationType" factoryName="Python" folderName="Lista1" nameIsGenerated="true">
       <module name="Algorytmy" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -80,7 +124,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="zad3" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+    <configuration name="zad3" type="PythonConfigurationType" factoryName="Python" folderName="Lista1" nameIsGenerated="true">
       <module name="Algorytmy" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -102,7 +146,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="zad4" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+    <configuration name="zad4" type="PythonConfigurationType" factoryName="Python" folderName="Lista1" nameIsGenerated="true">
       <module name="Algorytmy" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -129,6 +173,8 @@
       <item itemvalue="Python.zad2" />
       <item itemvalue="Python.zad3" />
       <item itemvalue="Python.zad4" />
+      <item itemvalue="Python.zad" />
+      <item itemvalue="Python.sorting_time" />
     </list>
   </component>
   <component name="ServiceViewManager">
@@ -171,7 +217,9 @@
       <workItem from="1584111543936" duration="349000" />
       <workItem from="1584177186209" duration="3273000" />
       <workItem from="1584180738356" duration="7846000" />
-      <workItem from="1584277649264" duration="8538000" />
+      <workItem from="1584277649264" duration="8943000" />
+      <workItem from="1584725801597" duration="11883000" />
+      <workItem from="1584785024632" duration="116000" />
     </task>
     <servers />
   </component>
@@ -183,58 +231,62 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="179" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1583002961473" />
-    <state x="414" y="176" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584288837891">
+    <state x="414" y="176" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584733188715">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="414" y="176" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584288837891" />
-    <state x="740" y="276" key="FileChooserDialogImpl" timestamp="1584288836861">
+    <state x="414" y="176" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584733188715" />
+    <state x="712" y="311" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1584726772835">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="276" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1584288836861" />
-    <state width="822" height="848" key="GridCell.Tab.0.bottom" timestamp="1584288898998">
+    <state x="712" y="311" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1584726772835" />
+    <state x="740" y="276" key="FileChooserDialogImpl" timestamp="1584733187365">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="822" height="848" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584288898998" />
-    <state width="822" height="848" key="GridCell.Tab.0.center" timestamp="1584288898997">
+    <state x="740" y="276" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1584733187365" />
+    <state width="1877" height="326" key="GridCell.Tab.0.bottom" timestamp="1584737840135">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="822" height="848" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584288898997" />
-    <state width="822" height="848" key="GridCell.Tab.0.left" timestamp="1584288898997">
+    <state width="1877" height="326" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584737840135" />
+    <state width="1877" height="326" key="GridCell.Tab.0.center" timestamp="1584737840135">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="822" height="848" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584288898997" />
-    <state width="822" height="848" key="GridCell.Tab.0.right" timestamp="1584288898998">
+    <state width="1877" height="326" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584737840135" />
+    <state width="1877" height="326" key="GridCell.Tab.0.left" timestamp="1584737840135">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="822" height="848" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584288898998" />
-    <state width="1877" height="326" key="GridCell.Tab.1.bottom" timestamp="1584188591608">
+    <state width="1877" height="326" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584737840135" />
+    <state width="1877" height="326" key="GridCell.Tab.0.right" timestamp="1584737840135">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="326" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584188591608" />
-    <state width="1877" height="326" key="GridCell.Tab.1.center" timestamp="1584188591608">
+    <state width="1877" height="326" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584737840135" />
+    <state width="1877" height="326" key="GridCell.Tab.1.bottom" timestamp="1584737840135">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="326" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584188591608" />
-    <state width="1877" height="326" key="GridCell.Tab.1.left" timestamp="1584188591608">
+    <state width="1877" height="326" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584737840135" />
+    <state width="1877" height="326" key="GridCell.Tab.1.center" timestamp="1584737840135">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="326" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584188591608" />
-    <state width="1877" height="326" key="GridCell.Tab.1.right" timestamp="1584188591608">
+    <state width="1877" height="326" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584737840135" />
+    <state width="1877" height="326" key="GridCell.Tab.1.left" timestamp="1584737840135">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="326" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584188591608" />
+    <state width="1877" height="326" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584737840135" />
+    <state width="1877" height="326" key="GridCell.Tab.1.right" timestamp="1584737840135">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="326" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584737840135" />
     <state x="756" y="116" key="SettingsEditor" timestamp="1583405794379">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="756" y="116" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1583405794379" />
-    <state x="636" y="345" key="com.intellij.ide.util.TipDialog" timestamp="1584277675342">
+    <state x="636" y="345" key="com.intellij.ide.util.TipDialog" timestamp="1584785122824">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="636" y="345" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584277675342" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1584186474439">
+    <state x="636" y="345" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584785122824" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1584734841945">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1584186474439" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1584734841945" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Algorytmy$igo.coverage" NAME="igo Coverage Results" MODIFIED="1584180224001" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lista1" />
@@ -244,7 +296,9 @@
     <SUITE FILE_PATH="coverage/Algorytmy$zad4.coverage" NAME="zad4 Coverage Results" MODIFIED="1584178957254" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lista1" />
     <SUITE FILE_PATH="coverage/Algorytmy$zad1.coverage" NAME="zad1 Coverage Results" MODIFIED="1584288618164" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lista1" />
     <SUITE FILE_PATH="coverage/Algorytmy$zad42.coverage" NAME="zad42 Coverage Results" MODIFIED="1584288594387" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lista1" />
-    <SUITE FILE_PATH="coverage/Algorytmy$zad3.coverage" NAME="zad3 Coverage Results" MODIFIED="1584288898979" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lista1" />
+    <SUITE FILE_PATH="coverage/Algorytmy$zad3.coverage" NAME="zad3 Coverage Results" MODIFIED="1584727478213" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lista1" />
+    <SUITE FILE_PATH="coverage/Algorytmy$sorting_time.coverage" NAME="sorting_time Coverage Results" MODIFIED="1584734427792" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lista2" />
+    <SUITE FILE_PATH="coverage/Algorytmy$zad.coverage" NAME="zad Coverage Results" MODIFIED="1584737126599" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lista2" />
     <SUITE FILE_PATH="coverage/Algorytmy$highest.coverage" NAME="highest Coverage Results" MODIFIED="1582996925495" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lista1" />
     <SUITE FILE_PATH="coverage/Algorytmy$string.coverage" NAME="string Coverage Results" MODIFIED="1583405390351" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lista1" />
   </component>
